@@ -1,7 +1,11 @@
 import React,{useState} from 'react';
 import { Button, Checkbox, Form, Input, Alert } from 'antd';
 
-const testPage = () => {
+const onFinishFailed = (errorInfo) => {
+  console.log('Failed:', errorInfo);
+};
+
+const TestPage = () => {
 
   const [showSuccessComponent, setShowSuccessComponent] = useState(false);
 
@@ -92,4 +96,4 @@ const testPage = () => {
   )
 }
 
-export default testPage;
+export default TestPage;
