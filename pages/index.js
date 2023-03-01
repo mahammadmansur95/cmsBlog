@@ -4,7 +4,7 @@ import matter from "gray-matter";
 import Link from "next/link";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import { Button, Checkbox, Form, Input } from 'antd';
+import { Button, Checkbox, Form, Input,Alert } from 'antd';
 
 const onFinishFailed = (errorInfo) => {
   console.log('Failed:', errorInfo);
