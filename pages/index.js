@@ -11,6 +11,7 @@ export default function Home({ blogs }) {
         <title>Demo Blog</title>
       </Head>
       <h1 className={styles["header"]}>Welcome to my blog</h1>
+      <div>Mansur</div>
       <p className={styles["subtitle"]}>
         This is a subtitle idk what to type here
       </p>
